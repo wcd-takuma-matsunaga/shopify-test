@@ -572,6 +572,14 @@
   {% comment %}<script src="{{ 'selling-plan-docs.js' | asset_url }}" defer="defer"></script>{% endcomment %}
 </section>
 
+<script
+  id="wcdScript"
+  src="https://assets.wearcoord.com/wcd/shopify/s/wcd-app.js"
+  data-product-code="{{ product.id }}"
+  defer="defer"
+></script>
+
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
